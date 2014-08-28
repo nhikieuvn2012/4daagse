@@ -1,0 +1,273 @@
+/*
+Theme Name: Thien Thanh
+Description: Grid Layout for My Theme
+Author: Rudolf Boesiger
+Version: 1.0
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+body{
+    background-image: url('images/background.png');
+  background: url('images/background.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    overflow-x: hidden;
+}
+
+footer{
+    background-image: url('images/footer.png');
+    height:263px;
+    background-color: #FF8502;
+}
+
+
+.menu-footer{
+    height: 80px;
+    margin-top: 102px;
+    font-size: 16px;
+}
+
+
+.menu-footer .dropdown-menu{
+    background-color: #FF8502;
+    text-align: left;
+}
+
+.menu-footer .dropdown-menu a:hover{
+    color: #EBEBEB;
+}
+
+.open a:hover{
+    background-color: #000;
+}
+.open>a:hover, .nav .open>a:focus {
+background-color:#000;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+background-color:#000;
+}
+
+.menu-footer a{
+    color:#EBEBEB;
+}
+.menu-footer a:hover{
+    color:#FF8502;
+}
+
+.menu-footer li a:hover{
+    background-color: #000;
+}
+.menu-footer li a:focus{
+    background-color: #000;
+}
+
+.panel-left{
+    background-image: url('images/bkpanel.png');
+    border: solid 6px #FF8502;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 460px;
+    color: #214F02;
+    width: 100%;
+}
+
+.panel-left img{
+    width: 100%;
+}
+
+.panel-right{
+     background-image: url('images/bkpanel.png');
+     border: solid 6px #FF8502;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     padding: 30px;
+     padding-top: 10px;
+     height: 460px;
+     color: #214F02;
+     font-size: 13px;
+     width: 100%;
+     overflow-x: hidden;
+     overflow-y: auto;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+#logo-sponser{
+    margin-right: 10px;
+}
+
+.menu-box-left{
+    text-align: center;
+    margin-left: 10px;
+    float: right;
+    margin-top: 10px;
+}
+
+
+.menu-box-right{
+    text-align: center;
+    margin-left: 10px;
+    float:left;
+    margin-top: 10px;
+}
+
+
+#logo{
+    background-image:url("images/logoborder.png") ;
+    width: 400px;
+    height: 350px;
+    position: absolute;
+}
+
+#gallery_thumb{
+    margin-top: 10px;
+}
+
+
+#gallery_thumb img{
+    border: solid 3px #FF8502;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#kr-slide{
+    position: fixed;top:0px;left: 0px;right: 0px;bottom: 0px;z-index: 100;  
+    background-image: url('images/bksl.png');
+    display: none; 
+    width: auto;
+}
+
+#slide-box{
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    top:10%;
+    text-align: center;
+}
+
+
+#slide-box img{
+    border: solid 10px white;
+    -webkit-box-shadow: 5px 7px 11px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    5px 7px 11px 0px rgba(0, 0, 0, 1);
+    box-shadow:         5px 7px 11px 0px rgba(0, 0, 0, 1);
+}
+
+#bnt-left{
+    width:30px;
+    height:25px;
+    position:absolute;
+    top:50%;
+    left:30px;
+    background-image: url('images/right.png');
+    cursor: pointer;
+    z-index: 900;
+}
+
+#bnt-right{
+    width:30px;
+    height: 25px;
+    position:absolute;
+    top: 50%;
+    right: 30px;
+    cursor: pointer;
+    background-image: url('images/left.png');
+    z-index: 900;
+}
+
+#bnt-close{
+    width:30px;
+    height: 25px;
+    position:absolute;
+    right: 50%;
+    top: 15px;
+    cursor: pointer;
+    background-image: url('images/close.png');
+    z-index: 900;
+}
+
+#img-share{
+    position: fixed;
+    position:absolute;
+    right: 0px;
+    width: 200px;
+    top:8px;
+    cursor: pointer;
+    z-index: 900;
+}
+#tabletime{
+    width:100%;
+    border:solid 1px white;   
+}
+
+#tabletime th{
+    background:black;
+    color:white;
+    padding: 5px;
+}
+
+#tabletime td{
+    background-color: #E5E5E5;
+}
+
+#tabletime td div{
+    background-color: #F47820;
+    color: black;
+    padding: 2px;
+    margin: 1px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+
+}
+
+#tabletime td div:hover{
+    background-color: orange;
+}
+
+#tabletime td b{
+    font-size: 11px;
+}
+
+#tabletime td i{
+    font-size: 9px;
+}
+
+#tabletime .title{
+    background: #4D4D4D;
+    color:white;
+    font-weight: bold;
+    padding: 3px;
+}
+
+#float-right{
+    float: right;
+    top:-80px;
+}
+
+
+
+#float-right a{
+    margin: 3px;
+    background: black;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+@media (max-width:780px){ 
+    
+    .panel-left{height:auto;margin-bottom: 10px;}
+    .panel-right{height:auto;}
+}
+
